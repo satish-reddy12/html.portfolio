@@ -1,34 +1,68 @@
-<!-- TODO 1: Create the HTML Boilerplate --><!DOCTYPE html>
- <html lang="en">
-    <head>
-        <title>satish portfolio</title>
-        <meta charset ="UTF-8">
-    </head>
-    <body>
-        <h1> WEB DeveloperSATISH PORTFOILO</h1>
-        <h2>"Welcome! Here you can explore my projects and learn more about me."
-</h2>
-<h3>web developer</h3>
-<hr/>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Satish Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>SATISH PORTFOLIO</h1>
+      <h2>Web Developer</h2>
+    </header>
 
+    <hr />
 
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        My name is Satish. I am currently learning full-stack web development.
+        I have skills in HTML and I’m working on CSS and JavaScript. I love
+        building websites and I want to become a professional web developer soon.
+      </p>
+    </section>
 
-    </body>
+    <section id="projects">
+      <h2>Projects</h2>
 
+      <article>
+        <h3><a href="public/digital-tools.html">Digital Tools</a></h3>
+        <img
+          src="assets/images/project-digital-tools.png"
+          height="200"
+          alt="Digital Tools project preview"
+        />
+        <p>
+          The proposed system is a Digital Signature Tool that makes signing and verifying documents secure,
+          reliable, and easy. It uses cryptographic methods like RSA or ECDSA to create unique digital signatures.
+          Users can sign documents with their private key, and recipients can verify them using the public key to
+          confirm authenticity and ensure no changes were made. The system includes secure key management and a
+          simple interface for easy use. It prevents forgery, ensures data integrity, and provides a trusted way
+          to protect important documents.
+        </p>
+      </article>
 
+      <article>
+        <h3><a href="public/alzheimer-disease.html">Alzheimer Disease</a></h3>
+        <img
+          src="assets/images/alzheimer-disease.png"
+          height="200"
+          alt="Alzheimer Disease project preview"
+        />
+        <p>
+          This project is about Alzheimer’s disease, a condition that affects memory and brain function.
+          I created this project to spread awareness, explain its symptoms, and provide educational content
+          in a simple way.
+        </p>
+      </article>
+    </section>
 
+    <hr />
 
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to contact me.</p>
+      <p><a href="public/contact.html">Go to Contact Page</a></p>
+    </section>
+  </body>
+</html>
